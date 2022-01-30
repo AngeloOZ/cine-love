@@ -9,7 +9,7 @@ router.get('/', function (req, res, next) {
 });
 router.post('/invitar', async function (req, res, next) {
     try {
-        const urlBase = 'http://localhost:3000/cartelera/';
+        const urlBase = 'https://cine-love.herokuapp.com/cartelera';
         const user = req.body;
         const urlB64 = base64Encode(JSON.stringify(user));
         user.url = `${urlBase}${urlB64}`;

@@ -34,7 +34,7 @@ router.get('/pelicula/:id', function (req, res, next) {
   let { id } = req.params;
   const filter = leerCartelera().find(ele => ele.id == id)
   filter.trailer = filter.trailer?.slice(filter.trailer.lastIndexOf('/') + 1)
-  base64Encode
+  // base64Encode
   res.render('pelicula', { title: `${filter.titulo} - CineLove`, page: 1, pelicula: filter });
 });
 

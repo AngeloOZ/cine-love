@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "titulo":"WandaVision",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/j2VeSZ7tncd2p8z1CeMnxbxK76b.jpg",
+        "sinopsis":"Combinando el estilo clásico de las sitcoms con el Universo Cinematográfico de Marvel, cuenta la historia Wanda Maximoff y Vision, dos seres con superpoderes que viven una vida idílica en las afueras de una ciudad hasta que un día comienzan a sospechar que no todo es lo que parece. Wanda Maximoff y Vision, dos seres superpoderosos que viven vidas suburbanas idealizadas, comienzan a sospechar que nada es lo que parece.",
+        "duracion":"0h 36m",
+        "trailer": "https://youtu.be/LQR6C79pSJA",
+        "cover": "https://www.themoviedb.org/t/p/original/1i1N0AVRb54H6ZFPDTwbo9MLxSF.jpg"
+    },
+    {
+        "id":2,
+        "titulo":"Hawkeye",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/93aDXCBlXfXFTeHiERzIbkhozr.jpg",
+        "sinopsis":"'Hawkeye', de Marvel Studios, es una nueva serie original que transcurre en una Ciudad de Nueva York post-Blip, donde el antes vengador Clint Barton, alias Hawkeye, tiene una misión que parece simple: regresar con su familia para Navidad. Pero cuando surge una amenaza de su pasado, Hawkeye renuentemente hace equipo con Kate Bishop, una hábil arquera de 22 años y su fan número uno, para desentrañar una conspiración criminal.",
+        "duracion":"0h 50m",
+        "trailer": "https://youtu.be/lieLNSHz07I",
+        "cover": "https://www.themoviedb.org/t/p/original/iXCuYBDEMX22Wpwx3whhOidLfJI.jpg"
+    },
+    {
+        "id":3,
+        "titulo":"Hotel Transylvania: Transformanía",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pwSlzCAynIF6aEP7oxWddo7Kng2.jpg",
+        "sinopsis":"Drac y la pandilla vuelven, como nunca los habías visto antes en Hotel Transilvania: Transformanía. Volveremos a encontrarnos con nuestros monstruos favoritos en una aventura completamente nueva en la que Drac se enfrentará a una de las situaciones más aterradoras vividas hasta el momento. Cuando el misterioso invento de Van Helsing, el 'Rayo Monstrificador', se vuelve totalmente fuera de control, Drac y sus monstruosos amigos se transforman en humanos, ¡y Johnny se convierte en un monstruo!",
+        "duracion":"1h 27m",
+        "trailer": "https://youtu.be/xS-4wF89eT4",
+        "cover": "https://www.themoviedb.org/t/p/original/dgkWoTLOT3aVfFzT6kbdD26lm3Z.jpg"
+    },
+    {
+        "id":4,
+        "titulo":"Guía de una niñera para cazar monstruos",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gJvuUUhHM3FtoXL0qlHPtsfwq8n.jpg",
+        "sinopsis":"Kelly descubre una sociedad secreta de niñeras que protege a los chicos de los monstruos cuando secuestran al niño que tenía a su cargo.",
+        "duracion":"1h 34m",
+        "trailer": "https://youtu.be/5427oSJkTBE",
+        "cover": "https://www.themoviedb.org/t/p/original/5ZcJSyXMNMJhquizMi25ei0ot9r.jpg"
+    },
+    {
+        "id":5,
+        "titulo":"Percy Jackson y el ladrón del rayo",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/piKMSnCCT0oqLZ9GWAALXX9e1qh.jpg",
+        "sinopsis":"Percy Jackson es un auténtico imán para los desastres y tiene problemas en el instituto -pero ése es el menor de sus retos-. Estamos en el siglo XXI pero los dioses del Olimpo parecen haberse escapado de las páginas del libro de texto de Percy sobre mitología griega para colarse en su vida. Percy se ha enterado de que su verdadero padre es Poseidón, dios del mar, lo que significa que Percy es un semidiós -mitad ser humano, mitad dios-. Al mismo tiempo, Zeus, el rey de todos los dioses, ha acusado a Percy de robarle su rayo... la versión original de las armas de destrucción masiva...",
+        "duracion":"1h 59m",
+        "trailer": "https://youtu.be/6NS02u_kaFM",
+        "cover": "https://www.themoviedb.org/t/p/original/q4PPJDf9zgo2cTQY27yl4KZhLSP.jpg"
+    },
+    {
+        "id":6,
+        "titulo":"Percy Jackson y el mar de los monstruos",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/akbLEdUzQ5T2R7coc5nOEqk7FjE.jpg",
+        "sinopsis":"Percy Jackson no se siente un héroe. El semidiós hijo de Poseidón el dios griego del mar pudo salvar el mundo en una ocasión, pero Percy está empezando a pensar que pudo ser fruto de la casualidad. Y ahora la pregunta es: ¿ha resultado ser un fiasco? Ahora que Percy ha descubierto que tiene un hermanastro que es un monstruo, se pregunta si ser el hijo de Poseidón es una bendición o, más bien, una maldición...",
+        "duracion":"1h 46m",
+        "trailer": "https://youtu.be/EuumNkOIpsk",
+        "cover": "https://www.themoviedb.org/t/p/original/zkKKtYfvoGbK4yl4aPfLf65bUO8.jpg"
+    },
+    {
+        "id":7,
+        "titulo":"Un jefe en pañales 2: Negocios de familia",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hvO2pc9X7kt7HZr5liSlk2MQA0Z.jpg",
+        "sinopsis":"Los hermanos Templeton se han convertido en adultos y se han alejado el uno del otro, pero un nuevo jefe bebé con un enfoque de vanguardia está a punto de unirlos nuevamente e inspirar un nuevo negocio familiar.",
+        "duracion":"1h 47m",
+        "trailer": "https://youtu.be/rLeDzAixQwY",
+        "cover": "https://www.themoviedb.org/t/p/original/960WAwfr8WSvrqiLXJDh7GrqHs0.jpg"
+    },
+    {
+        "id":8,
+        "titulo":"Baywatch: Guardianes de la Bahía",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aPifsnK3ui76Cq7xMDe1AVlrA0k.jpg",
+        "sinopsis":"Adaptación al cine de la serie 'Baywatch'. Narra la historia del esforzado socorrista Mitch Buchannon (Johnson) y su choque de carácter con un bravucón socorrista novato (Efron). Juntos, descubren una trama delictiva local que amenaza el futuro de la Bahía.",
+        "duracion":"1h 56m",
+        "trailer": "https://youtu.be/WZRgKoBIi40",
+        "cover": "https://www.themoviedb.org/t/p/original/kNvdCvBjKRnYm0rM5yMgOg3JhNr.jpg"
+    }
+]

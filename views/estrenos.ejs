@@ -2,7 +2,7 @@
     <div class="container p-2 py-3">
         <div class="row d-flex gy-3 justify-content-center">
             <% data.forEach((pelicula)=> { %>
-                <a href="#" class="contenedor-pelicula">
+                <a href="/proximos-estrenos/<%= pelicula.id %>" class="contenedor-pelicula">
                     <div class="contenedor-img">
                         <img src="<%= pelicula.banner %>" alt="">
                         <div class="title-pelicula"><span>

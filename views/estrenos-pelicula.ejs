@@ -1,0 +1,31 @@
+<%- include("layouts/head") %>
+    <header class="header">
+        <div class="bg-hero">
+            <img src="<%= pelicula.cover%>" alt="">
+        </div>
+        <div class="header-movie">
+            <h1 class="title-movie">
+                <%= pelicula.titulo%>
+            </h1>
+            <p class="time-movie">Duración <%= pelicula.duracion%>
+            </p>
+        </div>
+    </header>
+    <main class="container mt-4 ctn-custom-movie p-2">
+        <div class="row g-3">
+            <div class="col-12 col-sm-4 col-lg-2 image-sinopsis">
+                <img src=" <%= pelicula.banner%>" alt="">
+            </div>
+            <div class="col-12 col-sm-8 col-lg-6">
+                <%= pelicula.sinopsis%>
+            </div>
+            <div class="col-12 col-lg-4 ctn-trailer">
+                <iframe src="https://www.youtube.com/embed/<%= pelicula.trailer%>" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <%- include("layouts/footer") %>

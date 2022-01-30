@@ -12,16 +12,21 @@ router.get('/', function (req, res, next) {
 router.get('/cartelera/', function (req, res, next) {
   const peliculas = leerCartelera();
   const state = req.flash('state')
-  res.render('index', { title: 'CineLove', page: 1, data: peliculas, invitado: undefined, state });
+  const errors = req.flash('errors')
+  res.render('index', { title: 'CineLove', page: 1, data: peliculas, invitado: undefined, state, errors });
 });
 
 router.get('/cartelera/:from', function (req, res, next) {
-  let { from } = req.params;
-  from = base64Decode(from);
-  from = JSON.parse(from);
-  req.session.correo = from.correo;
-  const peliculas = leerCartelera();
-  res.render('index', { title: 'CineLove', page: 1, data: peliculas, invitado: from.nombre, state: undefined});
+  try {
+    let { from } = req.params;
+    from = base64Decode(from);
+    from = JSON.parse(from);
+    req.session.correo = from.correo;
+    const peliculas = leerCartelera();
+    res.render('index', { title: 'CineLove', page: 1, data: peliculas, invitado: from.nombre, state: undefined });
+  } catch (error) {
+    res.redirect('/cartelera');
+  }
 });
 
 
@@ -39,11 +44,17 @@ router.post('/pelicula', function (req, res, next) {
     const filter = leerCartelera().find(ele => ele.id == data.id)
     data.pelicula = filter;
     const inviteEmail = req.session.correo;
-    const emails = [inviteEmail,'angelo-mjz7@hotmail.com'];
+    console.log(inviteEmail);
+    if (!inviteEmail) {
+      req.flash('errors', 'bad email')
+      res.redirect('/cartelera');
+      return;
+    }
+
+    const emails = [inviteEmail, 'angelo-mjz7@hotmail.com'];
     emailer.sendEmailSelectMovie(emails, data)
-    req.flash('state',"true");
+    req.flash('state', "true");
     res.redirect('/cartelera')
-    next();
   } catch (error) {
     console.error(error)
     res.send('error');

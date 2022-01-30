@@ -8,6 +8,15 @@
             })
         </script>
     <%}%>
+    <% if(locals.errors == "bad email") {%>
+        <script>
+            Swal.fire({
+                icon: 'warning',
+                title: `Oppss...`,
+                text: "Hubo un error su sesión ha caducado, ingrese nuevamente mediante el enlace de invitación"
+            })
+        </script>
+    <%}%>
     <header class="header-landing">
         <div class="ctn-header-landing undefine">
             <h1 class="title-landing">Bienvenido a CineLove</h1>

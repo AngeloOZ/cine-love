@@ -212,7 +212,7 @@ a {
   height: 550px;
   width: 100%;
   background: url('/images/buld.jpg');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -234,6 +234,10 @@ a {
     width: 100%;
     min-height: 320px;
   }
+  .building-site h1{
+    top: 120px;
+    font-size: 24px;
+  }
 }
 
 
@@ -241,7 +245,11 @@ a {
   .bg-hero {
     height: 250px;
   }
-
+  .building-site h1{
+    top: 120px;
+    width: 90%;
+    font-size: 22px;
+  }
   .bg-hero::before {
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 12%, rgba(255, 255, 255, 0) 100%);
   }

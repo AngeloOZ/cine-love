@@ -34,7 +34,9 @@ app.use('/config', require('./routes/config'));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  next(createError(404));
+  res.redirect('/cartelera')
+  // next(createError(404));
+  
 });
 
 // error handler

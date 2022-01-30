@@ -21,7 +21,7 @@ router.get('/cartelera/:from', function (req, res, next) {
   from = JSON.parse(from);
   req.session.correo = from.correo;
   const peliculas = leerCartelera();
-  res.render('index', { title: 'CineLove', page: 1, data: peliculas, invitado: from.nombre});
+  res.render('index', { title: 'CineLove', page: 1, data: peliculas, invitado: from.nombre, state: undefined});
 });
 
 

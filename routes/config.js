@@ -12,7 +12,7 @@ router.post('/invitar', async function (req, res, next) {
         const urlBase = 'https://cine-love.herokuapp.com/cartelera';
         const user = req.body;
         const urlB64 = base64Encode(JSON.stringify(user));
-        user.url = `${urlBase}${urlB64}`;
+        user.url = `${urlBase}/${urlB64}`;
         emailer.sendEmail(user);
         req.session.destroy();
         res.send('Correo enviado');

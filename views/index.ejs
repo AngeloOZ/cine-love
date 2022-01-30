@@ -1,0 +1,49 @@
+<%- include("layouts/head") %>
+    <% if(state == "true") {%>
+        <script>
+            Swal.fire({
+                icon: 'success',
+                title: `Compra exitosa`,
+                text: "La transacción se realizo con exito, en unos momentos recibirá un correo con una confirmación"
+            })
+        </script>
+    <%}%>
+    <header class="header-landing">
+        <div class="ctn-header-landing undefine">
+            <h1 class="title-landing">Bienvenido a CineLove</h1>
+            <% if(invitado) {%>
+                <p>
+                    <%= invitado%>
+                </p>
+                <script>
+                    setTimeout(() => {
+                        Swal.fire({
+                            title: `<%= invitado%>`,
+                            text: "Usted ha sido invitada a ver un pelicula, por lo tanto tiene acceso ilimitado a todos los servicios de forma gratuita"
+                        })
+                    }, 1500);
+                </script>
+                <% }else{%>
+                    <p>Disfrute su pelicula</p>
+                    <%}%>
+        </div>
+    </header>
+    <div class="container p-2 py-3">
+        <div class="row d-flex gy-3 justify-content-center">
+            <% data.forEach((pelicula)=> { %>
+                <a href="/pelicula/<%= pelicula.id %>" class="contenedor-pelicula">
+                    <div class="contenedor-img">
+                        <img src="<%= pelicula.banner %>" alt="">
+                        <div class="title-pelicula"><span>
+                                <%= pelicula.titulo %>
+                            </span></div>
+                    </div>
+                    <button class="btn-comprar">
+                        Comprar
+                    </button>
+                </a>
+                <% }); %>
+        </div>
+    </div>
+
+    <%- include("layouts/footer") %>

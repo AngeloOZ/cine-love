@@ -1,0 +1,110 @@
+[
+    {
+        "id":1,
+        "titulo":"Antes de que te vayas",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wdd6bdjNQalBadPWPLia4Je1JcS.jpg",
+        "sinopsis":"Una mujer pierde el tren de la 1:30 de Nueva York a Boston, tras lo cual un músico de la calle pasa la noche tratando de ayudarla a hacer que pueda volver a casa antes de que llegue su marido. A lo largo de la noche aprenden mucho el uno del otro y se enamoran.",
+        "duracion":"1h 35m",
+        "trailer": "https://youtu.be/oIw8X_52H2w",
+        "cover": "https://www.themoviedb.org/t/p/original/z3QtDJam7FsRqD9z6WvmQBa7Jxm.jpg"
+    },
+    {
+        "id":2,
+        "titulo":"Mi primer amor",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5uCm8PoC3n0F5XtYq0aAcqUCdP6.jpg",
+        "sinopsis":"Corre el año 1957. Juli y Bryce, dos niños de siete años aparentemente muy distintos, son vecinos y compañeros de clase. Juli se enamora de Bryce, pero él no siente lo mismo y durante seis años tratará de evitarla. Cuando, en 1963, siendo ya adolescentes, van a la escuela secundaria, las cosas cambian: Bryce empieza a mirar a Juli con otros ojos.",
+        "duracion":"1h 26m",
+        "trailer": "https://youtu.be/92SgWpDYjlo",
+        "cover": "https://www.themoviedb.org/t/p/original/wdOGA0LC1NiWgAX1OaiKtNA247i.jpg"
+    },
+    {
+        "id":3,
+        "titulo":"Sr. y Sra. Smith",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wNi7Axc8U4cI9BgryeuF5tpi0I1.jpg",
+        "sinopsis":"Jane y John Smith forman una pareja de vida acomodada dentro de un ordinario y monótono matrimonio suburbano. Además ambos ocultan algo por lo que su pareja mataría por saber: los dos son agentes secretos, asesinos increíblemente eficientes que trabajan para organizaciones que compiten entre sí. Además, un día el Sr. y la Sra. Smith descubren una nueva fuente de emoción en su matrimonio cuando se les contrata para asesinarse mutuamente, pues será entonces cuando comienza la verdadera diversión...",
+        "duracion":"2h 0m",
+        "trailer": "https://youtu.be/CZ0B22z22pI",
+        "cover": "https://www.themoviedb.org/t/p/original/zxYMe9GoJ67LP9xpPP3cgqCUuIU.jpg"
+    },
+    {
+        "id":4,
+        "titulo":"Luna de miel en familia",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eDe8JBtBOGRQqOJ2RKvmkuQ3KUB.jpg",
+        "sinopsis":"Un hombre y una mujer va un resort con sus respectivas familias y no pueden ocultar su sorpresa al verse el uno al otro. Ya se conocían, había tenido una cita a ciegas hace algún tiempo, una cita cuyo resultado no había sido para nada satisfactorio. No obstante, contra todo pronóstico, la tracción que entonces no sintieron hace ahora su aparición. Pero ellos no son los únicos que se ven beneficiados por esto, sus hijos también saben sacar partido a la situación, convirtiendo la creciente relación en algo de lo que pueden sacar provecho.",
+        "duracion":"1h 57m",
+        "trailer": "https://youtu.be/PbNgAu_Bfkc",
+        "cover": "https://www.themoviedb.org/t/p/original/oTPwr8b9yNXzZtQpjtQZf9JwUcJ.jpg"
+    },
+    {
+        "id":10,
+        "titulo":"Mientras estés conmigo",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/y6Vuu6XZim23JT6pxnKmHh0GaL1.jpg",
+        "sinopsis":"Cuenta la historia real de la estrella de música cristiana Jeremy Camp, profundizando en su aventura de amor y pérdida, demostrando así que siempre hay esperanza.",
+        "duracion":"1h 55m",
+        "trailer": "https://youtu.be/RflzgIUWSzc",
+        "cover": "https://www.themoviedb.org/t/p/original/sUQgwo4oCgNVbpIq7ZtIUhF5hOe.jpg"
+    },
+    {
+        "id":11,
+        "titulo":"Lo mejor de mí ",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/47VDL1LRHXfofzXTLrGFe8QpxD4.jpg",
+        "sinopsis":"Dawson y Amanda, dos antiguos novios del instituto que tuvieron que separarse por presión del padre de ella, se reencuentran tras 20 años, cuando ambos vuelven a visitar su pueblo natal... Nueva adaptación al cine de una novela de Nicholas Sparks, también autor de 'El diario de Noa', con la que 'The Best of Me' guarda muchas semejanzas en el argumento.",
+        "duracion":"1h 57m",
+        "trailer": "https://youtu.be/OJRKTaXhbJs",
+        "cover": "https://www.themoviedb.org/t/p/original/i0pxyY3hEpaHH8PJ1NFPB0yevlA.jpg"
+    },
+    {
+        "id":12,
+        "titulo":"La cruda realidad",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vSQuBXiIdIvaeKDFPFvLXKNVFT8.jpg",
+        "sinopsis":"Abby Ritcher (Katherine Heigl) es una joven productora de un programa matutino de TV de Sacramento que tiene problemas para el amor. Su búsqueda de 'el hombre perfecto' le ha dejado soltera y sin esperanzas, y está llegando a pensar que está incapacitada para el romance. A Abby le espera una buena cuando sus jefes deciden que forme equipo con Mike Chadway (Gerard Butler), un rudo personaje televisivo que promete desvelar la cruda realidad del por qué los hombres y las mujeres son como son. Sorprendentemente, Abby contará con la insospechada ayuda de su desagradable presentador, que la asesorará en sus citas, haciéndola pasar por una serie de sonrojantes pruebas para demostrar sus teorías sobre las relaciones. Pero las tretas del hombre les conducirán a un resultado inesperado.",
+        "duracion":"1h 36m",
+        "trailer": "https://youtu.be/XPk_xGsuSYw",
+        "cover": "https://www.themoviedb.org/t/p/original/1unr7YDNTHGHBxCxqDmdYopjYQd.jpg"
+    },
+    {
+        "id":6,
+        "titulo":"Doctor Strange: Hechicero supremo",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nyjsUPtUKJMPvOzR6Gcutblg2yE.jpg",
+        "sinopsis":"La historia del famoso neurocirujano Dr. Stephen Strange cuya vida cambia para siempre luego de un accidente automovilístico que lo deja sin poder mover sus manos. Cuando la medicina tradicional falla, se ve obligado a buscar una cura y esperanzas en un lugar impensado: una comunidad aislada y misteriosa llamada Kamar-Taj. Rápidamente descubre que éste no es sólo un centro de recuperación, sino también la primera línea de una batalla en contra de fuerzas oscuras y ocultas empeñadas en destruir nuestra realidad. En poco tiempo, Strange, armado con sus poderes mágicos recientemente adquiridos, se ve obligado a elegir entre volver a su antigua vida de riqueza y estatus, o dejarlo todo para defender el mundo como el hechicero más poderoso del planeta.",
+        "duracion":"1h 55m",
+        "trailer": "https://youtu.be/pLZH1rquIrg",
+        "cover": "https://www.themoviedb.org/t/p/original/eQN31P4IEhyp6NkdccvppJnyuJ4.jpg"
+    },
+    {
+        "id":7,
+        "titulo":"No miren arriba",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hQa3XMuWOM3H2y1eBS2lvUM8j72.jpg",
+        "sinopsis":"Dos astrónomos mediocres descubren que, en pocos meses, un meteorito destruirá el planeta Tierra. A partir de ese momento, intentan advertir a la humanidad del peligro que se avecina a través de los medios de comunicación.",
+        "duracion":"2h 23m",
+        "trailer": "https://youtu.be/XHJ0Oi9diRQ",
+        "cover": "https://www.themoviedb.org/t/p/original/nvxrQQspxmSblCYDtvDAbVFX8Jt.jpg"
+    },
+    {
+        "id":8,
+        "titulo":"El Día del Fin del Mundo",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rdPHT0TUvB1JAsT89hrX65xBo0A.jpg",
+        "sinopsis":"Un matrimonio a punto de separarse debe tratar de garantizar la seguridad de su hijo y ellos mismos cuando una catástrofe se avecina hacia el planeta. Un objeto del espacio está a punto de colisionar con la Tierra y esta familia es escogida para entrar en un búnker subterráneo. Sin embargo, tienen poco tiempo. Tan solo cuentan con 48 horas antes de que el mundo que conocen se destruya para siempre.",
+        "duracion":"2h 0m",
+        "trailer": "https://youtu.be/3XJ8n7RTuQc",
+        "cover": "https://www.themoviedb.org/t/p/original/chur9oNPwuq1AiT1r6Mkqv8y18Z.jpg"
+    },    
+    {
+        "id":5,
+        "titulo":"¿Qué Pasó Ayer? Parte II",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/98piHxHeanfwsZYxz7rJU0GXeMn.jpg",
+        "sinopsis":"Alan (Zach Galifianakas), Stu (Ed Helms) y Phil (Bradley Cooper) vuelven a despertarse en otra habitación de otro hotel y, para no perder la costumbre, en esta ocasión tampoco recuerdan nada. Esta vez sólo saben que están en Tailandia, adonde han viajado, junto a Doug (Justin Bartha), para asistir a la boda de Stu con Lauren (Jamie Chung). El principal problema: el hermano menor de Lauren, Teddy, ha desaparecido. Y para encontrarlo intentarán recomponer su noche anterior, que al parecer ha contado con monos, monjes, transexuales... y Chow (Ken Jeong), claro.",
+        "duracion":"1h 42m",
+        "trailer": "https://youtu.be/AbVRMX4E0bU",
+        "cover": "https://www.themoviedb.org/t/p/original/zzcBf3kVmhJTANaFCJXiltsy64o.jpg"
+    },
+    {
+        "id":9,
+        "titulo":"Amigos con beneficios",
+        "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iRAdmsAsVl2iUUOvi50OEg2qXhc.jpg",
+        "sinopsis":"Jamie es una joven cazatalentos que convence a Dylan para que se vaya a trabajar a Nueva York como director artístico de la revista GQ. Una vez allí los dos, solteros y atractivos, entablan una relación estrictamente sexual sin dejar por ello de ser amigos. Naturalmente, esta anómala relación no les traerá más que complicaciones.",
+        "duracion":"1h 49m",
+        "trailer": "https://youtu.be/5ldE-z-ZvsQ",
+        "cover": "https://www.themoviedb.org/t/p/original/4AyQWDINzihdhZRfdO30ZBGvZXc.jpg"
+    }
+]

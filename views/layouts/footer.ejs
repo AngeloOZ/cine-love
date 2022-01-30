@@ -1,0 +1,27 @@
+<footer class="bg-dark text-center py-3 text-white">
+    <% const currentTime = new Date(); %>
+    © <%= currentTime.getFullYear()%> Copyright: CineLove
+</footer>
+<script>
+    getDate();
+    function getDate(){
+        const inputDate = document.getElementById('inputDate');
+        if(!inputDate) return;
+
+        const now = new Date();
+        let month = (now.getMonth()+1).toString();
+        let day = now.getDate().toString();
+
+        if(month.length == 1){
+            month = '0'+month;
+        }
+        if(day.length == 1){
+            day = '0'+day;
+        }
+        const fecha = `${now.getFullYear()}-${month}-${day}`
+
+        inputDate.setAttribute('min',fecha);
+        inputDate.setAttribute('value',fecha);
+    }
+</script>
+</body>
